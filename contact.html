@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">  
+
+<body>
+      
+    <script src="javascript1.js"></script>
+
+    <img src="assets/img/images/jarditou_logo.jpg" alt="image jardinier" title="jardinier">
+
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="tableau.html">Tableau</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <img src="assets/img/images/promotion.jpg" alt="image jardinier" title="jardinier">
+
+    <h1>Contact</h1>
+    <hr>
+    <form action="monscript.php" method="post">
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="nom">Nom*:</label><input type="text" name="nom" id="nom"><br>
+            <label for="prenom">Prénom*:</label><input type="text" name="prenom" id="prenom"><br>
+            <label>Sexe :</label>
+            <input type="radio" name="sexe" value="Féminin">Féminin
+            <input type="radio" name="sexe" value="Masculin">Masculin<br>
+            <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date"><br>
+            <label for="code_postal">Code postal*:</label><input type="text" name="code_postal" id="code_postal"><br>
+            <label for="adresse">Adresse:</label><input type="adresse" name="adresse" id="adresse"><br>
+            <label for="ville">Ville:</label><input type="ville" name="ville" id="ville"><br>
+            <label for="email"><label for="email">Email:</label><input type="email" name="email" id="email"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Votre demande</legend>
+            <label for="sujet">Sujet*:</label>
+            <select name="sujet">
+                <option>Mes commandes</option>
+                <option>Question sur un produit</option>
+                <option>Réclamation</option>
+                <option>Autres</option>
+            </select> <br>
+            <label for="votre question">Votre question*:</label>
+            <textarea name="question" id="" cols="20" rows="2"></textarea>
+        </fieldset>
+        <hr>
+        <input type="checkbox" name="J'accepte le traitement informatique de ce formulaire"
+            value="J'accepte le traitement informatique de ce formulaire"> J'accepte le traitement informatique de ce
+        formulaire<br>
+        <button name="Envoyer" rows="1" cols="15"> Envoyer</button>
+        <button name="Annuler" rows="1" cols="15"> Annuler</button>
+
+    </form>
+
+
+    <footer>
+        <ul>
+            <li><a href="Mentions légales.html">Mentions légales</a></li>
+            <li><a href="Horaires.html">Horaires</a></li>
+            <li><a href="Plan du site.html">Plan du site</a></li>
+        </ul>
+    </footer>
+<script src="assets/js/javascript.js"></script> 
+</body>
+
+</html>
